@@ -7,7 +7,7 @@ public class BackTest {
     public String toto;
 
     public String getToto() {
-        return "TOto";
+        return "TOto 2";
     }
 
     public void setToto(String toto) {
