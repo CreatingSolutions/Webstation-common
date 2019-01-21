@@ -1,6 +1,7 @@
 webstationcommon/User.class
 webstationcommon/Token.class
 webstationcommon/Flat.class
+webstationcommon/User$1.class
 webstationcommon/Entity.class
 webstationcommon/Cart.class
 webstationcommon/Role.class

@@ -1,5 +1,8 @@
 package webstationcommon;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 public class User extends Entity {
 
     private String emailAddress;
@@ -10,6 +13,10 @@ public class User extends Entity {
 
     private Cart cart;
 
+    private Collection<Role> roles = new ArrayList<Role>() {
+        private static final long serialVersionUID = -3328919039745373393L;
+        { add(Role.ROLE_USER); }
+    };
 
     public String getEmailAddress() {
         return emailAddress;
@@ -42,4 +49,7 @@ public class User extends Entity {
     public void setCart(Cart cart) {
         this.cart = cart;
     }
+
+    public Collection<Role> getRoles() { return roles; }
+    public void setRoles(Collection<Role> roles) { this.roles = roles; }
 }
