@@ -1,1 +1,5 @@
-webstationcommon/BackTest.class
+webstationcommon/User.class
+webstationcommon/Token.class
+webstationcommon/Entity.class
+webstationcommon/Cart.class
+webstationcommon/Role.class
