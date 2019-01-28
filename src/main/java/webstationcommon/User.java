@@ -3,7 +3,7 @@ package webstationcommon;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class User extends Entity {
+public class User {
 
     private String emailAddress;
 

@@ -1,7 +1,7 @@
 package webstationcommon;
 
 
-public class Token extends Entity {
+public class Token {
 
     private User user;
 
