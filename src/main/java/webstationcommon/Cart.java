@@ -2,7 +2,7 @@ package webstationcommon;
 
 import java.util.Collection;
 
-public class Cart extends Entity {
+public class Cart {
 
     private int id;
     private User user;
